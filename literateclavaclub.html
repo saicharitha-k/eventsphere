@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literate Clava Club Activities</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background-color: #f4f4f4; color: #333; width: 100%; height: 100vh; }
+        .container { max-width: 1200px; margin: 0 auto; background: #fff; border-radius: 12px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); padding: 20px; }
+        .logo { text-align: center; margin-bottom: 20px; }
+        .logo img { width: 150px; }
+        h1 { text-align: center; color: #2e8b57; margin-bottom: 20px; }
+        .activity { margin-bottom: 30px; background: #f9f9f9; border-radius: 8px; padding: 15px; box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); }
+        .activity img { max-width: 100%; border-radius: 8px; margin-top: 10px; }
+        .registration { text-align: center; margin-top: 20px; }
+        .registration button { background-color: #2e8b57; color: #fff; padding: 10px 20px; font-size: 1.2rem; border: none; border-radius: 6px; cursor: pointer; }
+        .registration button:hover { background-color: #246d47; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIHBhIQBxAVFRUXFRYSFxUVGBUQGBMXFRgWFhkXGBskHiggGB0nHR8XIT0hJS0tLi4uFx8zODMsQygtLi4BCgoKDg0OGxAQFy0lHiUrLS0tLi8tNy0tLS0wLS0rLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAEDBQYHCAL/xABBEAACAQMCAgUGCwcEAwAAAAAAAQIDBBEFEgYhEzFBUWEHFCJxkbEWIzI2QlRzgZOh0Rc0UlNywdIVM0RiJIKi/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAEEAgMGBQf/xAAvEQEAAgECBAMGBgMAAAAAAAAAAQIDBBEFEiExE0FxFDI0UVKRFiIzYWKhU2Pw/9oADAMBAAIRAxEAPwDuIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGQKZAZAZArkAAAAAAAAAAAAAAAAAAAAAAAAAAAGG4m1StpNlGen20q7csOMc5isN7uSfq+8xtMx2WdNhpltte3K02v5Ta1tPbc2Gx905yg/Y4GE5NvJ7FOB0v7uWJW/2qT+px/Ef+JHjNn4e/n/R+1SX1OP4j/xHjI/D3+z+n1S8qFStUUaNjuk+pRnKTf3KGSYy7+TG/Aq0je2WI/71bPwvxBcaxcSV9ZToRUcqUty3POMYcV2czOszPd5er0uLDtyZIt6NmRkogAAAAAAAAAAAAAAAAAAAAAAAAA+XHIETU9Np6naSpXsFKLWOfZ4rufiRNYlsxZb47Ras7PP17bu0valKXXCcqb8dknH+xUnpL6Dp8viYq3+cLKWXyI7y2Xty1mfk75w1otPRdLhToQSeE5y7ZyxzbZcisRD59qtRfPkm1pZbBKs+gkAAAAAAAAAAAAAAAAAAAAAAAAAACjA4DxYtvE11j+dP35Kl4/NLvuHfC09GOtudzDP8UfeiK91jUfpW9Ho6HUXHzl9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAUYHAuLfnPdfbT95Vv70u+4b8LT0Y21/eof1R96Ma92/UfpW9Ho2PUXHzrzfYAAAAAAAAAAAAAAAAAAAAAAAAAAAAFGBwLi35z3X20/eVb+9LvuG/C09GNtf3qH9UfejGvdv1H6VvR6Nj1Fx86832AAAAAAAAAAAAAAAAAAAAAAAAAAAABRgcC4t+c919tP3lW/vS77hvwtPRjbX96h/XH3oxr3b9R+lb0ejo9RcfOlKtVUo5qtJd7aSA0jVPKPbWfGNpZW9SnUjV3Qq1Iy3KjOWFSjlcubymuzMTOKTtujdvKeTBKoAAAAAAAAAAAAAAAAAAAAAAAAAowOBcW/Oe6+2n7ypk9533DfhaejEqvG1kp13iMZRbfgmicdZtO0NmsyVx4rc0+Td6fFeqcf3UqfBkFa2sXtld1Fmb8I8mk/8ArFNrlmUS/wAsR37vnkz1SX5FqN/FS17UryvVxzm5RxnwU1N/mPE27QbNT4t8i1fTKDq8PVXcRXN0pJQqpd8WuU34cn3ZNlc2/SyJh1PyY8TfCbheE67+OpPoK6fJ9JBfKa/7LEvW2uw0XjaUw20xSAAAAAAAAAAAAAAAAAAAAAAAAFGBwLi35z3X20/eVcnvS73h3wtPRpNeM9f4go2do/l1Y0Y9vpSaTk/Vz9hfw44pTmcvxfWzmyzSs9IeptE0qloml07awjtp04qMV3462+9t82+9mqZmZ3eUnAUaygIFlotCw1CtXs6UYVKzi6so8ukcU0m11Z5vn4iZmUbMgEgAAAAAAAAAAAAAAAAAAAAAAABRgefuNKnRcQXku6pUfs5lfbfI7fT35dBE/wAWseSqS/aJYur/ADJe106mPzwenkjam0OGm3NeZejdT1x2tzsoxTx1t57e45jW8W8G/JWN2F8nKm6XqHn9By24aeGX9Fq41FOZnW26cpZ6i5E7slSQAAfO4D6AAAAAAAAAAAAAAAAAAAAAAowPP3GsOl4gvY99WovaV99sjt9PXm0ER/FzfS76Wk6pRuKPyqVSFVLxhJSx+WD19t6+rhZjlmYnu9PV6dLUehq2dXKrpVYtvK2SipR/Q4viOhpOeKRba1p82Fqxun29SGk2rjCe+Uk5LHNOSwkl6+RZw3xaPHyVtvMsoiK9E7S4VIU352opt5xHx7y/o65YrPid2Ubp5cZIOo6rR0x0/P6sYdLUjRp7vp1J52xXi8MkTJS2xywdZ7OVVNVnxRx/ShaVJKjCeFtk0pRp+lKTx1qTWPVg0829+nZ0nstNNoJteI5pdWibnNqgAAAAAAAAAAAAAAAAAAAAowPP3E1TpeI7pr+fU/KTX9ink953/D4201Kz8nP9dtPNb5tL0Zekv7r2+89TTZYtXZyHGNJOHNNvKW+eTDihToqwv584/wCw2+tNtun6022vB47DnuPaC9ts1PLu8i8b9nULCpG1rb6yy0sxiu1977sHgaXJjxX8S/eOzGsxHWU2lrtWNbdVScG8YSxj1PvL2Pi2eL894/KzjJO7YKV5CrbdJGS24y2+SSXXnuwdHhzUzV5qS2xMS5zpd18P+P1d0HmxsN0aUupV7maWZrvUVhp9mI/xFrblhMdV3yg8ZRdCVnpU1Jv0alSPNJdsIvtb6m+z3Vr36dHQ8J4ZNp8bLH5Y7I3kh0/pL2vcSXyYqkn4y9KX5KPtIwx03beP5ulMUerqaN7mQAAAAAAAAAAAAAAAAAAAMfrGs0dFtlU1KeyLe1PEpZeG8YSfYmRMxHduwafJnty443lp2seU2jTotaRCc5NYUpLZBeOH6T9WEYWyVevp+BZptHidIctnNzm3N5bbbfe3zbK0zMy62lYrEVjyRr21je0HCt60+1PvRnjvNJ3VtXpKamnhy1S906pYTy08Lmpxz9z8GepTLTJG1nE6rh2XBaY2mY+bb+HPKVVstsNbp9PBfSi9lXHi8Yl+T8TyNRwLBkvvWdv2ebNY36t1u/LPYSsOjoWNw+XKMuiprPhJTb+/BZtw7HOPw5jo2xtbpDStV4hvuJ6bp1X5vbSxupQynUS6t7+n7FF9xhp8GHSRtXrL1dFwjLlmJtG1U2lqFWjpsbajUlGjFYVOHoR59e7GNzb5tvOWzC+S8y6rBw7T4ttqxuimG0yvO1+Tew8y4WpOS51M1X/7fJ/+dpapG0OG4tm8TVW/bo2ozeaAAAAAAAAAAAAAAAAAAABGvbClf01G+pQqJPKU0pJPqzzImGdMlqTvWdkL4N2T/wCHR/Dj+g5Ybfa8/wBc/dT4OWX1Oj+HH9BtHyPa8/1z9z4N2X1Oj+HH9CNo+R7Xn+ufufBuy7bOj+HH9BEbdkW1OW0bTeUOvwNpdd5qadbfdShDPsSNnNLRPVdt+DtOtf8AYsLaPiqUM+3GSN5TW017L/wbsvqdH8OP6GPLDf7Xnjtefur8G7L6nR/Dj+g2hPtmf/JP3Pg3ZP8A4dH8OP6DaEe1Zvrn7snSpRpU1GkkkkkkuSSXJJEq8zvO8vsAAAAAAAAAAAAAAAAAAAAADVuGK0LS41OdZqMY3sll8tq6Gg8eCy28d8n3kyh8aDY07zU9SjcQUlG+i1F81+6W7xju3SnLHe2xIwE7aFPyQ1bikkqjsptzT5trc4yb/iT7esmPeSm8TUPM+F9R306FKfmU5wVGUtz2Kbc3yWMNww8dr5kISeE63Q6xfO7aobI0s225yhCEVN+dRbwnGonjMUsdG0+eRIt8O6jWt+Jpf6pTqwhexdWmqrp4jVpZ+Lgozk1mh0bw0udKb7cJPYYPRZuHENJT+Jh/qd+o11J/HOFStCNlJclFNekstr4rCSZl5DZdIuo6fqWsVZrlC4hhLrf/AItvJQj65t8u1y8TH5JfPBd1Ws9Tr2msRqRnNeeU+ldOTlvwq8Y7ZyW2NXmlnkqsV2ISNyIAAAAAAAAAAAAAAAAAAAAAACE9It3X3u2o7s7t3Rw3ZznOcZznnkC9Ts6dJy6OnBb/AJWIpb85+Vy59vX3gY6F3YzirenK3abaVJOk05R5tKPU2sPOOrA6i5p9pZ3NrJ6fSt5Qk9snTjTlGTi+p4WHh9nYwL1ShbzquFSnSco00trjBtU5NpLHZFtPw5eBIsq6s7i2p1lKhKnGSjTqZpyjGWdqUJdSecLC7eRHUXoW9s5SoQp0s+jVlTUYfSb2zlHxcZYb7YvuAuPTqMt26jT9JqUvQj6TXNN8ub8QLkrWnKuqkqcXNLCltW5J9ifWgLwAAAAAAAAAAAAAAAAAAAAAAABi+Jrerd8PXNPTZbas6NWFN524nKDUXns545jcQdDrUKml21ONGUHSjHFKVOUHQlCG155Yjj0lnqeeWckyhC4O1KNpolOlWjU3yr3GI9HUTSlcVZKUsrEY7fSy+zqzlCSGOnOtb69R1To/QqVJW80nUlU82niNLdT2LbsnGNR83hVKnVnlPlsJthp9Sx4iq27i/NOkeowl9GMp530PurZreGcEb7wlChOtb69Q1Po/i685UKiXSyqKhUwqLnS6P4vo5QjJ8+XTVe8Ib+uohKoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//Z" alt="Literate Clava Logo">
+        </div>
+        
+        <h1>Literate Clava Activities</h1>
+
+        <!-- Upcoming Activities -->
+        <div class="activity">
+            <p><strong>Event:</strong> Inter-College Debate Championship</p>
+            <p><strong>Date:</strong> 22nd April 2025</p>
+            <p><strong>Timings:</strong> 10:00 AM - 2:00 PM</p>
+            <p><strong>Venue:</strong> Conference Hall</p>
+            <p><strong>Registration Fee:</strong> ₹300</p>
+            <img src="https://th.bing.com/th/id/OIP.YecKimrTIanmeEPqx9_TIQHaHa?w=200&h=200&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Upcoming Event Image">
+            <div class="registration">
+                <button onclick="register('Inter-College Debate Championship')">Register for Upcoming Event</button>
+            </div>
+        </div>
+
+        <!-- Past Activities -->
+        <div class="activity">
+            <p><strong>Event:</strong> Annual Poetry Recital</p>
+            <p><strong>Date:</strong> 15th March 2025</p>
+            <p><strong>Timings:</strong> 5:00 PM - 7:00 PM</p>
+            <p><strong>Venue:</strong> Open Theatre</p>
+            <p><strong>Prize Money:</strong> ₹10,000</p>
+            <img src="https://th.bing.com/th/id/OIP.ZaTWuiOJWlPdh7m6a3a7DQHaEK?pid=ImgDet&w=184&h=103&c=7&dpr=1.3" alt="Past Event Image 1">
+        </div>
+        <div class="activity">
+            <p><strong>Event:</strong> Story Writing Contest</p>
+            <p><strong>Date:</strong> 5th February 2025</p>
+            <p><strong>Timings:</strong> 3:00 PM - 6:00 PM</p>
+            <p><strong>Venue:</strong> Literary Club Room</p>
+            <p><strong>Prize Money:</strong> ₹8,000</p>
+            <img src="https://th.bing.com/th/id/OIP.6BOmONy7h2vOAzE3ACX65AAAAA?w=115&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Past Event Image 2">
+        </div>
+    </div>
+    
+    <script>
+        function register(eventName) {
+            alert("Redirecting to registration...");
+            window.location.href = "registration.html?event=" + encodeURIComponent(eventName);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Confirmed</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h2 {
+      color: #2e8b57;
+      margin-bottom: 20px;
+    }
+
+    .ticket {
+      border: 2px dashed #2e8b57;
+      padding: 20px;
+      margin-top: 20px;
+      border-radius: 10px;
+      font-size: 16px;
+    }
+
+    .ticket strong {
+      color: #2e8b57;
+    }
+
+    .btn {
+      margin-top: 30px;
+      background-color: #2e8b57;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 13px;
+      color: #888;
+    }
+  </style>
+  <script>
+    function loadDetails() {
+      document.getElementById("name").textContent = localStorage.getItem("name") || "N/A";
+      document.getElementById("email").textContent = localStorage.getItem("email") || "N/A";
+      document.getElementById("event").textContent = localStorage.getItem("event") || "N/A";
+    }
+  </script>
+  
+</head>
+<body onload="loadDetails()">
+  <div class="container">
+    <h2>🎫 Registration Confirmed!</h2>
+    <p>Thank you for registering. Here's your event pass:</p>
+
+    <div class="ticket">
+      <p><strong>Name:</strong> <span id="name">N/A</span></p>
+      <p><strong>Email:</strong> <span id="email">N/A</span></p>
+      <p><strong>Event:</strong> <span id="event">N/A</span></p>
+    </div>
+
+    <a href="clubscrolling.html" class="btn">Back to Home</a>
+
+    <div class="footer">
+      &copy; 2025 Event Sphere. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>

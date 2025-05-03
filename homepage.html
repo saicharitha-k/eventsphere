@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventSphere - Welcome</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif; /* Consistent font */
+        }
+
+        body {
+            background-color: #f4f4f4; /* Light grey background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .logo-page {
+            text-align: center;
+            background: #fff; /* White container background */
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+
+        .logo {
+            width: 20%; /* Responsive logo size */
+            max-width: 300px; /* Prevent logo from getting too large */
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 3rem; /* Larger header text */
+            color: #2e8b57; /* Green header text color */
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            background-color: #2e8b57; /* Green button background */
+            color: #fff; /* White text */
+            padding: 20px 40px; /* Larger button size */
+            text-transform: uppercase;
+            border: none;
+            border-radius: 6px; /* Rounded button edges */
+            font-weight: bold;
+            font-size: 1.5rem; /* Larger font size for button */
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: #246d47; /* Darker green on hover */
+        }
+
+        @media (max-width: 768px) {
+            .logo-page {
+                padding: 10px; /* Adjust spacing for smaller screens */
+            }
+
+            h1 {
+                font-size: 2rem; /* Smaller header size for mobile */
+            }
+
+            .btn {
+                font-size: 1rem; /* Adjust button font size */
+                padding: 15px 30px; /* Adjust button padding */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo-page">
+        <!-- Replace this link with your own logo -->
+        <img src="https://th.bing.com/th/id/OIP.zbyz96KEzzMmtLuVJnkEVAHaHD?w=160&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="GNITS LOGO" class="logo">
+        <h1>Welcome to EVENT SPHERE</h1>
+        <a href="login.html" class="btn">Get Started</a>
+    </div>
+</body>
+</html>

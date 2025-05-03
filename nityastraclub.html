@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nrithyastra Club Activities</title>
+    <style>
+        /* Reset and font setup */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4; /* Light grey background */
+            color: #333; /* Neutral text color */
+            width: 100%;
+            height: 100vh; /* Full screen */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo img {
+            width: 150px; /* Adjust the size of the logo */
+        }
+
+        h1 {
+            text-align: center;
+            color: #2e8b57; /* Green header color */
+            margin-bottom: 20px;
+        }
+
+        .activity {
+            margin-bottom: 30px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .activity img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .registration {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .registration button {
+            background-color: #2e8b57; /* Green button background */
+            color: #fff; /* White text */
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .registration button:hover {
+            background-color: #246d47; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo Section -->
+        <div class="logo">
+            <img src="data:image/jpeg;base64,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" alt="Club Logo">
+        </div>
+
+        <h1>Nrithyastra Dance Club Activities</h1>
+
+        <!-- Upcoming Activities Section -->
+        <div class="activity">
+            <p><strong>Event:</strong> Nrithyastra Dance Competition</p>
+            <p><strong>Date:</strong> 20th April 2025</p>
+            <p><strong>Timings:</strong> 5:00 PM - 7:00 PM</p>
+            <p><strong>Venue:</strong> Auditorium Hall</p>
+            <p><strong>Registration Fee:</strong> ₹300</p>
+            <p><strong>Price Pool:</strong>₹27000</p>
+            <img src="https://th.bing.com/th/id/OIP.UWB5LYpveeajnxQRRLQFVwHaHa?rs=1&pid=ImgDetMain" alt="Upcoming Event Image">
+            <div class="registration">
+                <button onclick="register('Nrithyastra Dance Competition')">Register for Upcoming Event</button>
+            </div>
+        </div>
+
+        <!-- Recent/Past Activities Section -->
+        <div class="activity">
+            <p><strong>Event:</strong> Annual Dance Competition</p>
+            <p><strong>Date:</strong> 15th March 2025</p>
+            <p><strong>Timings:</strong> 6:00 PM - 9:00 PM</p>
+            <p><strong>Venue:</strong> Open Stage</p>
+            <p><strong>Prize Money:</strong> ₹10,000</p>
+            <img src="https://nrithyakuteera.com/images/anual/a4.png" alt="Recent Activity Image 1">
+        </div>
+        <div class="activity">
+            <p><strong>Event:</strong> Inter-College Dance Battle</p>
+            <p><strong>Date:</strong> 20th February 2025</p>
+            <p><strong>Timings:</strong> 4:00 PM - 8:00 PM</p>
+            <p><strong>Venue:</strong> Main Grounds</p>
+            <p><strong>Prize Money:</strong> ₹15,000</p>
+            <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/dance-competition-poster-design-template-5441003a1586b6fe89bf96d9f206cc4f.jpg?ts=1643078953" alt="Recent Activity Image 2">
+        </div>
+    </div>
+
+    <script>
+        function register(eventName) {
+            alert("Redirecting to registration...");
+            window.location.href = "registration.html?event=" + encodeURIComponent(eventName);
+        }
+    </script>
+</body>
+</html>

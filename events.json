@@ -1,0 +1,74 @@
+[
+  {
+    "email": "praneethasiripurapu2006@gmail.com",
+    "eventDetails": "Startup Pitch Challenge",
+    "eventImage": "uploads\\26154bfeb5508f3046c0c09677fad2a8",
+    "registrationDate": "2025-04-29T18:08:23.867Z"
+  },
+  {
+    "email": "praneethasiripurapu2006@gmail.com",
+    "eventDetails": {
+      "name": "Technical Symposium",
+      "date": "2025-05-05",
+      "time": "10:00 AM",
+      "location": "Main Auditorium"
+    },
+    "eventImage": "uploads\\ba926cb95ba83320f23616ed0dc458b7",
+    "registrationDate": "2025-04-29T18:24:00.346Z"
+  },
+  {
+    "email": "praneethasiripurapu2006@gmail.com",
+    "eventDetails": {
+      "name": "Technical Symposium",
+      "date": "2025-05-05",
+      "time": "10:00 AM",
+      "location": "Main Auditorium"
+    },
+    "eventImage": "uploads\\9207b9e3547d3d1f00a71c06a1c18b38",
+    "registrationDate": "2025-04-29T18:24:54.430Z"
+  },
+  {
+    "email": "praneethasiripurapu2006@gmail.com",
+    "eventDetails": {
+      "name": "Technical Symposium",
+      "date": "2025-05-05",
+      "time": "10:00 AM",
+      "location": "Main Auditorium"
+    },
+    "eventImage": "uploads\\7a3dafee0c6256673469fb06c9d51ec7",
+    "registrationDate": "2025-04-29T18:36:54.586Z"
+  },
+  {
+    "email": "praneethasiripurapu2006@gmail.com",
+    "eventDetails": {
+      "name": "Technical Symposium",
+      "date": "2025-05-05",
+      "time": "10:00 AM",
+      "location": "Main Auditorium"
+    },
+    "eventImage": "uploads\\b5b44905403a48c385fb338f3a548801",
+    "registrationDate": "2025-04-29T18:37:37.914Z"
+  },
+  {
+    "email": "praneethasiripurapu2006@gmail.com",
+    "eventDetails": {
+      "name": "Technical Symposium",
+      "date": "2025-05-05",
+      "time": "10:00 AM",
+      "location": "Main Auditorium"
+    },
+    "eventImage": "uploads\\38bb2bea865873eaf98cc298d7e349dc",
+    "registrationDate": "2025-04-29T18:42:10.182Z"
+  },
+  {
+    "email": "praneethasiripurapu2006@gmail.com",
+    "eventDetails": {
+      "name": "Sample Event",
+      "date": "2025-05-05",
+      "time": "10:00 AM",
+      "location": "Main Auditorium"
+    },
+    "eventImage": "uploads\\c234561fb1dd54c878ea3394c48aea12",
+    "registrationDate": "2025-04-29T18:43:40.791Z"
+  }
+]
