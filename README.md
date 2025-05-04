@@ -1,24 +1,70 @@
 
-# Event Sphere 🎉
+# 🎉 Event Sphere
 
-**Event Sphere** is a web-based platform designed to streamline the management of college clubs and events. It allows students to register for events, make payments, receive tickets, and stay updated about upcoming events.
+**Event Sphere** is a smart event and club registration system tailored for colleges and organizations. It simplifies the process of event discovery, registration, payment, and ticketing—bringing everything under one unified platform.
 
-## 🌟 Features
+---
 
-- User Sign-Up with Email Validation
-- Notification Generator on Successful Signup
-- Secure User Data Storage in MongoDB
-- Dynamic Scrolling of Upcoming Events on Homepage
-- Event Registration System
-- QR-Based Payment Gateway Integration
-- Automatic Ticket Generation After Payment
+## 🧠 Problem Statement
 
-## 🛠️ Technologies Used
+In many colleges and organizations, event registration is still handled manually or through disconnected tools like Google Forms, spreadsheets, and WhatsApp groups. There is no centralized system that integrates user registration, payments, and ticketing efficiently.
 
-- **Frontend:** HTML, CSS, JavaScript
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **API:** Abstract API (for email validation)
+**Event Sphere** addresses this by offering a seamless solution with:
+- A user-friendly interface for event discovery and registration
+- QR-based payment integration
+- Automatic ticket generation and confirmation
+
+---
+
+## 🎯 Target Audience
+
+- College event coordinators and clubs
+- Students and participants
+- Admins managing multiple events or departments
+
+---
+
+## ✅ Functional Requirements
+
+- User signup and login
+- View available events
+- Register for events
+- Choose payment mode
+- View QR and complete payment
+- Generate and download tickets
+- Admin: add/view/edit/delete events and registrations
+
+---
+
+## ⚙️ Non-Functional Requirements
+
+- Secure user authentication
+- Responsive design for mobile/desktop
+- Reliable database performance
+- Minimal load times
+
+---
+
+## 🚀 Features
+
+- 🔐 Secure login/registration
+- 📅 List of upcoming events
+- 💳 Payment via QR Code (UPI-based)
+- 🎫 Instant ticket generation after payment
+- 🧑‍💼 Admin panel for event and registration management
+- 📦 Scalable codebase for future enhancements
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB (Mongoose ODM)
+- **Deployment**: (add here if you're using Render, Vercel, etc.)
+- **Tools**: GitHub, VS Code, Postman
+
+---
 
 ## 🚀 How to Run the Project
 
@@ -63,4 +109,6 @@ This project is licensed under the MIT License.
 
 ## 👩‍💻 Author
 
-- A15 batch
+- Sai Charitha
+- Saanvi
+- Harini
